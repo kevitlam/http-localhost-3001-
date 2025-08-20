@@ -25,7 +25,7 @@ const Hero = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <a href="#investments" className="btn btn-primary">
+                <a href="http://linkedin.com/in/michaelmiebach" className="btn btn-primary">
                   View Portfolio
                 </a>
                 <a href="#contact" className="btn btn-secondary">
