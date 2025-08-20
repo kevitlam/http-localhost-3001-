@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://miebachventures.com/sitemap.xml
+
+# Security
+Disallow: /private/
+Disallow: /admin/
+Disallow: /.env
+Disallow: /config/
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

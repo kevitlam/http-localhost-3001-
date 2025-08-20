@@ -1,0 +1,6 @@
+Contact: mailto:security@miebachventures.com
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://miebachventures.com/.well-known/security.txt
+Policy: https://miebachventures.com/security-policy
+Acknowledgments: https://miebachventures.com/security-acknowledgments
