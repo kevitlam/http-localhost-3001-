@@ -5,7 +5,7 @@ const Team = () => {
     {
       name: "Michael Miebach",
       role: "Founder & Managing Partner",
-      background: "Former CEO of Mastercard",
+      background: "CEO of Mastercard",
       expertise: "Fintech, Payments, Global Strategy"
     },
     {
@@ -17,25 +17,25 @@ const Team = () => {
     {
       name: "David Rodriguez",
       role: "Principal",
-      background: "Former Goldman Sachs VP",
+      background: "Goldman Sachs",
       expertise: "Financial Markets, Due Diligence"
     },
     {
       name: "Emily Zhang",
       role: "Investment Director",
-      background: "Former Sequoia Capital Associate",
+      background: "Sequoia Capital",
       expertise: "Early-stage Investing, Portfolio"
     },
     {
       name: "James Thompson",
       role: "Head of Legal",
-      background: "Former Coinbase General Counsel",
+      background: "Coinbase General Counsel",
       expertise: "Crypto Law, Regulatory Compliance"
     },
     {
       name: "Lisa Patel",
       role: "Head of Operations",
-      background: "Former Andreessen Horowitz COO",
+      background: "Andreessen Horowitz COO",
       expertise: "Fund Operations, Portfolio Support"
     }
   ];

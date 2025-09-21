@@ -11,7 +11,7 @@ const About = () => {
             <h2 className="text-display mb-8">About Miebach Ventures</h2>
             <div className="max-w-3xl mx-auto">
               <p className="text-body-large mb-6">
-                Founded by Michael Miebach, former CEO of Mastercard, Miebach Ventures is a venture capital firm 
+                Founded by Michael Miebach, CEO of Mastercard, Miebach Ventures is a venture capital firm 
                 focused on empowering the next generation of innovators. With deep expertise in financial technology, 
                 payments, and crypto, we partner with bold founders building transformative solutions for a global economy.
               </p>
