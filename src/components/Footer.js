@@ -22,8 +22,8 @@ const Footer = () => {
             </div>
             <div className="text-center sm:text-left">
               <div className="text-stone-600 text-sm font-medium">Send your pitch to</div>
-              <a href="mailto:hello@michealmiebach.com" className="text-xl sm:text-2xl font-bold text-stone-900 hover:text-accent-600 transition-colors break-all">
-                hello@michealmiebach.com
+              <a href="mailto:hello@meibachventure.bond" className="text-xl sm:text-2xl font-bold text-stone-900 hover:text-accent-600 transition-colors break-all">
+                hello@meibachventure.bond
               </a>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Contact</h4>
               <div className="space-y-2 text-stone-400">
                 <p>General Inquiries:<br/>
-                <a href="mailto:hello@michealmiebach.com" className="hover:text-white transition-colors">hello@michealmiebach.com</a></p>
+                <a href="mailto:hello@meibachventure.bond" className="hover:text-white transition-colors">hello@meibachventure.bond</a></p>
                 <p>New York, San Francisco, London</p>
               </div>
             </div>
