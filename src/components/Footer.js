@@ -35,7 +35,7 @@ const Footer = () => {
             
             {/* Company */}
             <div>
-              <h3 className="text-xl font-bold mb-4">Miebach Ventures</h3>
+              <h3 className="text-xl font-bold mb-4">Miebach venture</h3>
               <p className="text-stone-400 leading-relaxed">
                 A $500M venture fund empowering the next generation of innovators 
                 at the intersection of technology and design.
@@ -67,7 +67,7 @@ const Footer = () => {
           {/* Bottom */}
           <div className="border-t border-stone-700 pt-8 text-center">
             <p className="text-stone-500">
-              © 2025 Miebach Ventures. All rights reserved. 
+              © 2025 Miebach venture. All rights reserved. 
               <span className="mx-2">•</span>
               The future of funding and investment.
             </p>

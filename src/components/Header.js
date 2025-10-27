@@ -27,7 +27,7 @@ const Header = () => {
             href="#" 
             className="text-xl font-semibold text-stone-900 hover:text-accent-600 transition-colors"
           >
-            Miebach Ventures
+            Miebach venture
           </a>
 
           {/* Navigation */}

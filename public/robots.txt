@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://miebachventures.com/sitemap.xml
+Sitemap: https://miebachventure.com/sitemap.xml
 
 # Security
 Disallow: /private/

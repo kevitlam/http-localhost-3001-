@@ -17,7 +17,7 @@ const Hero = () => {
               
               <div className="space-y-4">
                 <p className="text-body-large">
-                  Miebach Ventures is a $500M venture fund dedicated to leading pre-seed investments in companies at the frontiers of technology and design.
+                  Miebach venture is a $500M venture fund dedicated to leading pre-seed investments in companies at the frontiers of technology and design.
                 </p>
                 <p className="text-body">
                   We partner with creative technologists who are artists, inventors, and entrepreneurs.

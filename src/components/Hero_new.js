@@ -62,7 +62,7 @@ const Hero = () => {
             </h1>
             <div className="richtext text-large mt-4">
               <p>
-                Miebach Ventures is a collective of creative technologists advancing the art of building.
+                Miebach venture is a collective of creative technologists advancing the art of building.
               </p>
               <p>
                 Our inaugural $100M venture fund is dedicated to leading pre-seed investments in companies at the frontiers of technology and design.

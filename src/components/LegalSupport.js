@@ -251,7 +251,7 @@ const LegalSupport = () => {
           </h3>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             Don't let legal complexity slow down your innovation. Get comprehensive 
-            legal support from day one with Miebach Ventures.
+            legal support from day one with Miebach venture.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <motion.button

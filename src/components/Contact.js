@@ -117,19 +117,19 @@ const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-xl font-medium text-stone-900 mb-2">General Inquiries</h4>
-                <p className="text-body mb-1">@miebachventures.com</p>
+                <p className="text-body mb-1">@miebachventure.com</p>
                 <p className="text-body-small text-stone-600">Questions about our fund and portfolio</p>
               </div>
               
               <div>
                 <h4 className="text-xl font-medium text-stone-900 mb-2">Investment Pitches</h4>
-                <p className="text-body mb-1">pitch@miebachventures.com</p>
+                <p className="text-body mb-1">pitch@miebachventure.com</p>
                 <p className="text-body-small text-stone-600">Submit your startup for consideration</p>
               </div>
               
               <div>
                 <h4 className="text-xl font-medium text-stone-900 mb-2">Media Inquiries</h4>
-                <p className="text-body mb-1">press@miebachventures.com</p>
+                <p className="text-body mb-1">press@miebachventure.com</p>
                 <p className="text-body-small text-stone-600">Press requests and interviews</p>
               </div>
             </div>

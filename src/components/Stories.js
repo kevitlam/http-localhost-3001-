@@ -91,7 +91,7 @@ const Stories = () => {
           >
             <span className="text-primary-400 font-semibold text-lg">Stories & Insights</span>
             <h2 className="text-4xl md:text-5xl font-display font-bold mt-4 mb-6">
-              <span className="text-gradient">Latest</span> from Miebach Ventures
+              <span className="text-gradient">Latest</span> from Miebach venture
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Deep insights from the frontlines of crypto venture capital, featuring 
