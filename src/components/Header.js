@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,18 +25,28 @@ const Header = () => {
       <div className="container">
         <nav className="flex items-center justify-between py-6">
           {/* Logo */}
-          <a 
-            href="#" 
+          <Link 
+            to="/" 
             className="text-xl font-semibold text-stone-900 hover:text-accent-600 transition-colors"
           >
             Miebach venture
-          </a>
+          </Link>
 
           {/* Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#about" className="nav-link">About</a>
             <a href="#investments" className="nav-link">Investments</a>
             <a href="#contact" className="nav-link">Contact</a>
+            <Link 
+              to="/portfolio-portal" 
+              className={`nav-link ${
+                location.pathname === '/portfolio-portal' 
+                  ? 'text-accent-600 font-semibold' 
+                  : 'hover:text-accent-600'
+              } transition-colors`}
+            >
+              Portfolio Access
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -61,6 +73,13 @@ const Header = () => {
                 <a href="#about" className="nav-link text-stone-600 hover:text-stone-900" onClick={() => setIsMobileMenuOpen(false)}>About</a>
                 <a href="#investments" className="nav-link text-stone-600 hover:text-stone-900" onClick={() => setIsMobileMenuOpen(false)}>Investments</a>
                 <a href="#contact" className="nav-link text-stone-600 hover:text-stone-900" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
+                <Link 
+                  to="/portfolio-portal" 
+                  className="nav-link text-stone-600 hover:text-accent-600" 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Portfolio Access
+                </Link>
               </div>
             </div>
           </div>

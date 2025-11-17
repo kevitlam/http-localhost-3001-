@@ -1,0 +1,194 @@
+{
+  "startups": [
+    {
+      "username": "TechStart001",
+      "password": "VCPortal2025!",
+      "status": "active",
+      "assignedDate": "2025-10-15",
+      "completed": false,
+      "companyInfo": {
+        "name": "TechVision AI",
+        "founder": "Sarah Johnson",
+        "email": "sarah@techvision.ai",
+        "sector": "Artificial Intelligence",
+        "stage": "Pre-Seed"
+      },
+      "investment": {
+        "committed": 250000,
+        "disbursed": 100000,
+        "pending": 150000,
+        "currency": "USD",
+        "investmentDate": "2025-10-15",
+        "nextDisbursement": "2025-12-01"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedDate": "2025-11-01",
+        "greenMark": true,
+        "documents": {
+          "kyc": "completed",
+          "incorporation": "completed",
+          "capTable": "completed",
+          "banking": "pending"
+        }
+      },
+      "legalCompliance": {
+        "completed": false,
+        "completedItems": ["kyc", "incorporation", "capTable"],
+        "pendingItems": ["banking", "agreements", "compliance"]
+      }
+    },
+    {
+      "username": "FinTech002",
+      "password": "VCPortal2025!",
+      "status": "active",
+      "assignedDate": "2025-11-10",
+      "completed": false,
+      "companyInfo": {
+        "name": "CryptoFlow",
+        "founder": "Michael Chen",
+        "email": "michael@cryptoflow.io",
+        "sector": "FinTech",
+        "stage": "Seed"
+      },
+      "investment": {
+        "committed": 500000,
+        "disbursed": 0,
+        "pending": 500000,
+        "currency": "USD",
+        "investmentDate": "2025-11-10",
+        "nextDisbursement": "2025-12-15"
+      },
+      "verification": {
+        "status": "pending",
+        "verifiedDate": null,
+        "greenMark": false,
+        "documents": {
+          "kyc": "pending",
+          "incorporation": "completed",
+          "capTable": "pending",
+          "banking": "pending"
+        }
+      },
+      "legalCompliance": {
+        "completed": false,
+        "completedItems": ["incorporation"],
+        "pendingItems": ["kyc", "capTable", "banking", "agreements", "compliance"]
+      }
+    },
+    {
+      "username": "HealthTech003",
+      "password": "VCPortal2025!",
+      "status": "active",
+      "assignedDate": "2025-11-05",
+      "completed": true,
+      "companyInfo": {
+        "name": "MediCore",
+        "founder": "Dr. Emily Rodriguez",
+        "email": "emily@medicore.health",
+        "sector": "HealthTech",
+        "stage": "Series A"
+      },
+      "investment": {
+        "committed": 1000000,
+        "disbursed": 1000000,
+        "pending": 0,
+        "currency": "USD",
+        "investmentDate": "2025-09-01",
+        "nextDisbursement": null
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedDate": "2025-09-15",
+        "greenMark": true,
+        "documents": {
+          "kyc": "completed",
+          "incorporation": "completed",
+          "capTable": "completed",
+          "banking": "completed"
+        }
+      },
+      "legalCompliance": {
+        "completed": true,
+        "completedItems": ["kyc", "incorporation", "capTable", "banking", "agreements", "compliance"],
+        "pendingItems": []
+      }
+    },
+    {
+      "username": "EdTech004",
+      "password": "VCPortal2025!",
+      "status": "active",
+      "assignedDate": "2025-11-12",
+      "completed": false,
+      "companyInfo": {
+        "name": "LearnHub",
+        "founder": "Alex Thompson",
+        "email": "alex@learnhub.edu",
+        "sector": "EdTech",
+        "stage": "Pre-Seed"
+      },
+      "investment": {
+        "committed": 150000,
+        "disbursed": 50000,
+        "pending": 100000,
+        "currency": "USD",
+        "investmentDate": "2025-11-12",
+        "nextDisbursement": "2025-12-20"
+      },
+      "verification": {
+        "status": "pending",
+        "verifiedDate": null,
+        "greenMark": false,
+        "documents": {
+          "kyc": "completed",
+          "incorporation": "pending",
+          "capTable": "pending",
+          "banking": "pending"
+        }
+      },
+      "legalCompliance": {
+        "completed": false,
+        "completedItems": ["kyc"],
+        "pendingItems": ["incorporation", "capTable", "banking", "agreements", "compliance"]
+      }
+    },
+    {
+      "username": "GreenTech005",
+      "password": "VCPortal2025!",
+      "status": "active",
+      "assignedDate": "2025-10-28",
+      "completed": false,
+      "companyInfo": {
+        "name": "EcoSmart Solutions",
+        "founder": "Lisa Park",
+        "email": "lisa@ecosmart.green",
+        "sector": "GreenTech",
+        "stage": "Seed"
+      },
+      "investment": {
+        "committed": 750000,
+        "disbursed": 250000,
+        "pending": 500000,
+        "currency": "USD",
+        "investmentDate": "2025-10-28",
+        "nextDisbursement": "2025-12-10"
+      },
+      "verification": {
+        "status": "verified",
+        "verifiedDate": "2025-11-10",
+        "greenMark": true,
+        "documents": {
+          "kyc": "completed",
+          "incorporation": "completed",
+          "capTable": "completed",
+          "banking": "completed"
+        }
+      },
+      "legalCompliance": {
+        "completed": false,
+        "completedItems": ["kyc", "incorporation", "capTable", "banking"],
+        "pendingItems": ["agreements", "compliance"]
+      }
+    }
+  ]
+}

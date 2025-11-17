@@ -6,15 +6,16 @@ import About from './components/About';
 import Investments from './components/Investments';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import StartupPortal from './components/startup-portal/StartupPortal.js';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
         <Routes>
           <Route path="/" element={
             <>
+              <Header />
               <Hero />
               <About />
               <Investments />
@@ -22,6 +23,7 @@ function App() {
               <Footer />
             </>
           } />
+          <Route path="/portfolio-portal" element={<StartupPortal />} />
         </Routes>
       </div>
     </Router>
