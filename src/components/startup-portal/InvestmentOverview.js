@@ -1,4 +1,5 @@
 import React from 'react';
+import WithdrawalPanel from './WithdrawalPanel.js';
 
 const InvestmentOverview = ({ investment, companyInfo, progressPercentage }) => {
   if (!investment) return null;
@@ -23,6 +24,12 @@ const InvestmentOverview = ({ investment, companyInfo, progressPercentage }) => 
   };
 
   const disbursementStatus = getDisbursementStatus();
+
+  const handleWithdrawal = (withdrawalData) => {
+    console.log('Withdrawal processed:', withdrawalData);
+    // Here you would typically send to your API
+    alert(`Withdrawal request submitted for ${formatCurrency(withdrawalData.amount)} via ${withdrawalData.method}`);
+  };
 
   return (
     <div className="investment-overview-card">
@@ -127,6 +134,14 @@ const InvestmentOverview = ({ investment, companyInfo, progressPercentage }) => 
             </div>
           </div>
         </div>
+      )}
+
+      {investment.disbursed > 0 && (
+        <WithdrawalPanel 
+          availableBalance={investment.disbursed}
+          companyInfo={companyInfo}
+          onWithdrawal={handleWithdrawal}
+        />
       )}
     </div>
   );
